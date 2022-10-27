@@ -61,6 +61,8 @@ h1{
 
 section{
     margin-top: 8rem;
+    height: 100vh;
+    padding-top: 3rem;
 }
 
 section > h2, section > h5{
@@ -112,6 +114,13 @@ img{
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/*Large Devices*/
+@media screen and (min-width: 2560px) {
+    body{
+        font-size: 1.4rem;
+    }
 }
 
 /*Medium Devices*/
