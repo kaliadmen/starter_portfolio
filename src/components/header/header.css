@@ -68,6 +68,17 @@ header{
             0 0 400px #03bcf4;
 }
 
+/*Large Devices*/
+@media screen and (min-width: 1900px) {
+    .profilePic{
+        width: 32rem;
+        height: 50rem;
+        position: absolute;
+        left: calc(50% - 15rem);
+        margin-top: 8rem;
+    }
+}
+
 /*Medium Devices*/
 @media screen and (max-width: 1024px){
    .header{
@@ -89,18 +100,12 @@ header{
 /*Animations*/
 .header__container > h2, .header__container > h2{
     animation: animate 5s linear infinite;
+    -webkit-box-reflect: below -28px linear-gradient(transparent, #0004);
 }
 
 .header__container > h1{
     animation: animate 8s linear infinite;
-}
-
-#last-name{
-    -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
-}
-
-#adj{
-    -webkit-box-reflect: below -22px linear-gradient(transparent, #0004);
+    -webkit-box-reflect: below -38px linear-gradient(transparent, #0004);
 }
 
 @keyframes animate {

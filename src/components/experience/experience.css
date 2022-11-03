@@ -78,3 +78,8 @@
         padding: 1rem;
     }
 }
+
+#experience > h2 {
+    animation: animate2 5s ease-in-out infinite;
+    -webkit-box-reflect: below -22px linear-gradient(transparent, #0004);
+}

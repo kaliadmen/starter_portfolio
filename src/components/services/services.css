@@ -63,6 +63,10 @@
     .service{
         margin-left: 6rem;
     }
+
+    .service__list p {
+        font-size: 1.4rem;
+    }
 }
 
 /*Medium Devices*/

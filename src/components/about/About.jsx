@@ -12,7 +12,8 @@ const About = () => {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__image">
-              <img src={AboutImage} alt="about me"/>
+              <img src="https://via.placeholder.com/600" alt="about me"/>
+              {/*<img src={AboutImage} alt="about me"/>*/}
             </div>
           </div>
           <div className="about__content">
@@ -36,10 +37,10 @@ const About = () => {
                 </article>
               </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Deserunt, dicta, illum! Aperiam dolor ipsa ipsam minima nihil
-              non porro quibusdam quis repellat repellendus sunt, tempore
-              totam velit voluptas voluptatum? Molestias.</p>
+            <p>I'm a developer with several years of experience. I started  programming on my own with C++ while in middle school. l immediately ran into some tough difficulties.
+            I didn't give up but I also didn't pursue it with the true passion I had for programming. After doing it for years as a hobby, I decided to dive all in on programming. With the boom of the internet
+              I've been able to use a wide variety of technologies. I've built things such as websites, content management systems, web crawlers, and port scanners.
+              My knowledge and understanding of technology helps me help others build and work more efficiently.</p>
 
             <a href="#contact" className="btn btn-primary">Get in Touch</a>
             </div>

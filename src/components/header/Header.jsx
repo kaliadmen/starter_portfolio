@@ -1,6 +1,6 @@
 import "./header.css";
 import CTA from "./CTA";
-import profilePic from  "../../assets/me2.png";
+import profilePic from  "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -17,7 +17,8 @@ const Header = () => {
           <HeaderSocials/>
 
           <div className="profilePic">
-            <img src={profilePic} alt="profile"/>
+            <img src="https://via.placeholder.com/400" alt="profile"/>
+            {/*<img src={profilePic} alt="profile"/>*/}
           </div>
 
           <a href="#portfolio" className="scroll__down">See More</a>

@@ -16,15 +16,11 @@ const Services = () => {
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Create UX/UI design of website or app</p>
+                <p>UX/UI designs</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Redesign exiting user interfaces</p>
-              </li>
-              <li>
-                <BiCheck className="service__list-icon" />
-                <p>Logo design</p>
+                <p>And more...</p>
               </li>
             </ul>
           </article>
@@ -37,15 +33,15 @@ const Services = () => {
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Create or customize Wordpress themes</p>
+                <p>Wordpress themes</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Create landing pages</p>
+                <p>Custom web applications</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Create or modify APIs</p>
+                <p>And more...</p>
               </li>
             </ul>
           </article>
